@@ -131,7 +131,7 @@ class Tooltip extends React.Component {
 											<TooltipMenuItem
 												key={item.label}
 												label={item.label}
-												onPress={() => this.handleClick(item.onPress)}
+												onPress={this.hideModal}
 												containerStyle={classes}
 												touchableStyle={touchableItemStyle}
 												labelStyle={labelStyle}
